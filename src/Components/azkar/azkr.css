@@ -1,0 +1,42 @@
+.azkr{
+    min-height: 100vh;
+}
+
+.zekra {
+    color: #313131;
+    background-color: #F9F9F9;
+    padding: 20px 30px;
+    border-radius: 0;
+    border-right: 8px solid rgb(83,104,5);
+}
+.zekra .h5{
+    line-height: 1.8;
+}
+.zekra .btns{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 140px;
+}
+.btns .btne{
+    padding: 5px 30px ;
+    outline: none;
+    font-weight: 600;
+    background-color: #0f97cf;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btns span{
+    font-weight: 700;
+    font-size: 17px;
+}
+.zekra .bless{
+    display: flex;
+    justify-content: flex-end;
+    color: #455a64;
+}
+.zero{
+    opacity: 0.5;
+}

@@ -1,0 +1,51 @@
+
+.prayer{
+    padding: 50px 0;
+    min-height: 100vh;
+    background-color: #eee;
+
+}
+.search {
+    padding: 18px 35px;
+    width: 500px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+    background-color: #F9F9F9;
+    color: #333;
+    font-size: 18px;
+    border-radius: 3px;
+}
+.search::placeholder{
+    color: #333;
+    font-size: 18px;
+}
+.prayer .big-box{
+    background-color: #fff;
+    padding: 50px 40px 100px 40px;
+    border-radius: 5px;
+}
+.prayer .big-box .boxess{
+    background-color: #F9F9F9;
+    padding: 25px;
+    border-radius: 3px 0 0 3px;
+    line-height: 2;
+    margin-bottom: 20px;
+    border-right: 4px solid #333;
+}
+h5{
+    text-align: center;
+}
+@media (max-width : 567px){
+    .search{
+        width: 100%;
+    }   
+    .prayer .big-box{
+        padding: 40px 10px 40px 10px;
+    }
+    .boxess{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -1,0 +1,12 @@
+.khtm{
+    padding: 10px;
+    min-height: 100vh;
+    line-height: 3;
+
+}
+.khtm p{
+    background-color: #F9F9F9;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 22px;
+}

@@ -1,0 +1,30 @@
+.navbar{
+    background-color: #0f97cf;
+    color: #fff !important;
+}
+.nav-link{
+    color: #fffefe9d !important;
+
+}
+.nav-link.active{
+    color: #fff !important;
+
+}
+
+.navbar-brand{
+    color:#fff !important ;
+    font-weight: bolder;
+}
+.btn{
+    background-color: #0f97cf !important;
+    color: #fff !important;
+    padding: 7px 25px !important;
+    cursor: pointer;
+}
+.navbar .logins{
+    cursor: pointer;
+}
+.login{
+    padding: 80px 0;
+    min-height: 100vh;
+}
